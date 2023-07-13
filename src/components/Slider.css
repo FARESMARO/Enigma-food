@@ -1,0 +1,25 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide3 {
+    background: url(../assets/pexels-robin-stickel-70497.jpg) center center/cover no-repeat;
+}
+
+.slide2 {
+    background: url(../assets/pexels-ash-376464.jpg) center center/cover no-repeat;
+}
+
+.slide1 {
+    background: url(../assets/pexels-narda-yescas-1566837.jpg) center center/cover no-repeat;
+}

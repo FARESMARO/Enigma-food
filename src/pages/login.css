@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+
+    height: 100vh;
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/pexels-chan-walrus-958545.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.Login-page {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    display: flex;
+    align-items: center;
+
+}
+
+.tittel {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+
+
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
